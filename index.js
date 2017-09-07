@@ -9,5 +9,5 @@ const socket = require('./server/websocket');
 server.on('request', app);
 
 server.listen(process.env.PORT || 3000, () => {
-  console.info(`server/ws started on port ${process.env.PORT}`); // eslint-disable-line no-console
+  console.info(`william started on port ${process.env.PORT}`); // eslint-disable-line no-console
 });
