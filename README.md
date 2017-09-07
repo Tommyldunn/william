@@ -26,14 +26,13 @@ Once you've created your [API.AI account](https://console.api.ai/api-client/#/lo
 You can start by cloning this repo:
 
 ```bash
-git clone git@github.com:van100j/tibot.git
+git clone https://github.com/Tommyldunn/william.git
 ```
 
-Create your `.env` file which contains your development environment, including the APIs keys, simply copy the `.env.example` file to `.env`
+Create your `.env` file which will contain your development environment and your API.AI and Google Maps API keys.
 ```bash
-cp .env.example .env
+vim .env
 ```
-and update it accordingly with your API.AI and Google Maps API keys.
 
 Install server dependencies at the root of the directory, and start the Express app:
 ```bash
