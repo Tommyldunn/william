@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  wsUrl: 'wss://ti-bot.herokuapp.com/'
+  wsUrl: 'wss://william-the-bot.herokuapp.com/'
 };
