@@ -484,7 +484,7 @@ webpackContext.id = 269;
 /***/ 272:
 /***/ (function(module, exports) {
 
-module.exports = "<ul class=\"msgs\" #chatMsgs>\n  <li class=\"bot\">\n    Hey there, my name is William. Ask me something about date and time ⏰!\n  </li>\n  <li\n    *ngFor=\"let input of msgs\"\n    [ngClass]=\"{'user': input.type === 'user', 'bot': input.type === 'bot'}\"\n  >{{ input.msg }}</li>\n  <li class=\"bot\" *ngIf=\"botIsTyping\">\n    <span>.</span>\n    <span>.</span>\n    <span>.</span>\n  </li>\n</ul>\n\n<div class=\"chat-input\">\n  <form (submit)=\"onSubmit()\">\n    <input [(ngModel)]=\"userMsg\" name=\"userMsg\" class=\"chat-input-text\" type=\"text\" placeholder=\"Ask something...\">\n  </form>\n</div>\n"
+module.exports = "<section class=\"main\">\n  <ul class=\"msgs\" #chatMsgs>\n    <li class=\"bot\">Hey there, my name is William. Ask me something about date and time ⏰!</li>\n    <li\n      *ngFor=\"let input of msgs\"\n      [ngClass]=\"{'user': input.type === 'user', 'bot': input.type === 'bot'}\"\n    >{{ input.msg }}</li>\n    <li class=\"bot\" *ngIf=\"botIsTyping\">\n      <span>.</span>\n      <span>.</span>\n      <span>.</span>\n    </li>\n  </ul>\n\n  <div class=\"chat-input\">\n    <form (submit)=\"onSubmit()\">\n      <input [(ngModel)]=\"userMsg\" name=\"userMsg\" class=\"chat-input-text\" type=\"text\" placeholder=\"Ask something...\">\n    </form>\n  </div>\n</section>\n"
 
 /***/ }),
 
